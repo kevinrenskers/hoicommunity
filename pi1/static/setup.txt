@@ -1,0 +1,141 @@
+plugin.tx_hoicommunity_pi1._CSS_DEFAULT_STYLE (
+
+	.tx-hoicommunity-pi1-viewprofile-container {
+		border-top: 1px solid black;
+		border-left: 1px solid black;
+		border-right: 1px solid black;
+	}
+
+	.tx-hoicommunity-pi1-messagelist-container, .tx-hoicommunity-pi1-message-container,
+	.tx-hoicommunity-pi1-editprofile-container, .tx-hoicommunity-pi1-viewprofile-container,
+	.tx-hoicommunity-pi1-buddylist-container, .tx-hoicommunity-pi1-userlist-container,
+	.tx-hoicommunity-pi1-ignorelist-container {
+		width: 100%;
+		margin: 20px 0 20px 0;
+	}
+
+	.tx-hoicommunity-pi1-viewprofile-image {
+		width: 158px;
+		text-align: center;
+	}
+
+	.tx-hoicommunity-pi1-viewprofile-label, .tx-hoicommunity-pi1-editprofile-label,
+	.tx-hoicommunity-pi1-message-label, .tx-hoicommunity-pi1-sendmessage-label {
+		font-weight: bold;
+		padding: 3px;
+		width: 110px;
+		vertical-align: top;
+	}
+
+	.tx-hoicommunity-pi1-viewprofile-field {
+		padding: 3px;
+		vertical-align: top;
+	}
+
+	.tx-hoicommunity-pi1-message-field, .tx-hoicommunity-pi1-sendmessage-field {
+		padding: 3px;
+	}
+
+	.tx-hoicommunity-pi1-viewprofile-label, .tx-hoicommunity-pi1-viewprofile-field {
+		border-bottom: 1px solid black;
+	}
+
+	.tx-hoicommunity-pi1-viewprofile-image {
+		border-left: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+
+	.tx-hoicommunity-pi1-viewprofile-actions {
+		margin-bottom: 20px;
+	}
+
+	#tx-hoicommunity-pi1-popup {
+		width: 600px;
+		height: 500px;
+		overflow: auto;
+		position: absolute;
+		top: 0;
+		left: 50%;
+		margin-left: -300px;
+		background: black;
+	}
+
+	.tx-hoicommunity-pi1-viewprofile-actions a {
+		display: block;
+	}
+
+	.tx-hoicommunity-pi1-textinput {
+		width: 400px;
+		padding: 0 3px 0 3px;
+		border: 1px solid black;
+		background: white;
+	}
+
+	.tx-hoicommunity-pi1-textarea {
+		width: 400px;
+		height: 220px;
+		padding: 0 3px 0 3px;
+		border: 1px solid black;
+		background: white;
+	}
+
+	#birthday_display {
+		background: white;
+		border: 1px solid black;
+		padding: 1px 3px 1px 3px;
+		vertical-align: middle;
+		width: 100px;
+		display: block;
+		float: left;
+		margin-right: 5px;
+		color: grey;
+	}
+
+	#birthday_trigger {
+		vertical-align: middle;
+		border: 0px;
+	}
+
+	.tx-hoicommunity-pi1-messagelist-header td, .tx-hoicommunity-pi1-buddylist-header td,
+	.tx-hoicommunity-pi1-userlist-header td, .tx-hoicommunity-pi1-ignorelist-header td {
+		border-bottom: 1px solid black;
+		font-weight: bold;
+	}
+
+	.tx-hoicommunity-pi1-messagelist-row img, .tx-hoicommunity-pi1-buddylist-row img,
+	.tx-hoicommunity-pi1-viewprofile-field img, .tx-hoicommunity-pi1-userlist-row img,
+	.tx-hoicommunity-pi1-ignorelist-row img {
+		vertical-align: middle;
+	}
+
+	.clickable {
+		cursor: pointer;
+	}
+
+	.tx-hoicommunity-pi1-onlineusers a, .tx-hoicommunity-pi1-userlist-letters a {
+		margin-right: 5px;
+	}
+
+	.group-member  {
+	}
+
+	.group-vip {
+		background-color: #F9966F;
+	}
+
+	.group-admin {
+		background-color: #B60801;
+	}
+
+	.user-buddy {
+		background-color: yellow;
+	}
+
+	.tx-hoicommunity-pi1-messages-quote {
+		display: block;
+		border: 1px solid black;
+		padding: 5px;
+		font-style: italic;
+	}
+
+)

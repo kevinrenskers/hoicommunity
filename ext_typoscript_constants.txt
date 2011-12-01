@@ -1,0 +1,145 @@
+plugin.hoicommunity {
+
+  ## TEMPLATE FILES
+  # cat=plugin.tx_hoicommunity_pi1//; type=file[html,htm,tmpl,txt]; label= Register view template
+  resource.template.register = EXT:hoicommunity/res/register.tmpl
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=file[html,htm,tmpl,txt]; label= Change password view template
+  resource.template.changePassword = EXT:hoicommunity/res/change_password.tmpl
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=file[html,htm,tmpl,txt]; label= Login view template
+  resource.template.login = EXT:hoicommunity/res/login.tmpl
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=file[html,htm,tmpl,txt]; label= Welcome view template
+  resource.template.welcome = EXT:hoicommunity/res/welcome.tmpl
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=file[html,htm,tmpl,txt]; label= Online users view template
+  resource.template.onlineUsers = EXT:hoicommunity/res/onlineusers.tmpl
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=file[html,htm,tmpl,txt]; label= Messages view template
+  resource.template.messages = EXT:hoicommunity/res/messages.tmpl
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=file[html,htm,tmpl,txt]; label= Buddylist view template
+  resource.template.buddylist = EXT:hoicommunity/res/buddylist.tmpl
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=file[html,htm,tmpl,txt]; label= Ignorelist view template
+  resource.template.ignorelist = EXT:hoicommunity/res/ignorelist.tmpl
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=file[html,htm,tmpl,txt]; label= Userlist view template
+  resource.template.userlist = EXT:hoicommunity/res/userlist.tmpl
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=file[html,htm,tmpl,txt]; label= Search users view template
+  resource.template.search = EXT:hoicommunity/res/search.tmpl
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=file[html,htm,tmpl,txt]; label= Profile view template
+  resource.template.profile = EXT:hoicommunity/res/profile.tmpl
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=file[html,htm,tmpl,txt]; label= Email templates
+  resource.template.email = EXT:hoicommunity/res/email.tmpl
+
+
+  ## ICONS
+  # cat=plugin.tx_hoicommunity_pi1//; type=file[gif,jpg,png]; label= Calender icon
+  resource.icon.calendar = EXT:hoicommunity/res/calendar.gif
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=file[gif,jpg,png]; label= Member- birthday today
+  resource.icon.memberNoImage = EXT:hoicommunity/res/member_noimage.gif
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=file[gif,jpg,png]; label= Member- birthday today
+  resource.icon.memberBirthday = EXT:hoicommunity/res/member_birthday.gif
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=file[gif,jpg,png]; label= Member- online
+  resource.icon.memberOnline = EXT:hoicommunity/res/member_online.gif
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=file[gif,jpg,png]; label= Member- offline
+  resource.icon.memberOffline = EXT:hoicommunity/res/member_offline.gif
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=file[gif,jpg,png]; label= Member- male
+  resource.icon.memberMale = EXT:hoicommunity/res/member_male.gif
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=file[gif,jpg,png]; label= Member- female
+  resource.icon.memberFemale = EXT:hoicommunity/res/member_female.gif
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=file[gif,jpg,png]; label= Member- edit
+  resource.icon.memberEdit = EXT:hoicommunity/res/member_edit.gif
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=file[gif,jpg,png]; label= Member- photoalbum
+  resource.icon.memberPhotoalbum = EXT:hoicommunity/res/member_photoalbum.gif
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=file[gif,jpg,png]; label= Buddy- add
+  resource.icon.buddyAdd = EXT:hoicommunity/res/buddy_add.gif
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=file[gif,jpg,png]; label= Buddy- delete
+  resource.icon.buddyDelete = EXT:hoicommunity/res/buddy_delete.gif
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=file[gif,jpg,png]; label= Message- new
+  resource.icon.messageNew = EXT:hoicommunity/res/message_new.gif
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=file[gif,jpg,png]; label= Message- read
+  resource.icon.messageRead = EXT:hoicommunity/res/message_read.gif
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=file[gif,jpg,png]; label= Message- write
+  resource.icon.messageWrite = EXT:hoicommunity/res/message_write.gif
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=file[gif,jpg,png]; label= Message- reply
+  resource.icon.messageReply = EXT:hoicommunity/res/message_reply.gif
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=file[gif,jpg,png]; label= Message- delete
+  resource.icon.messageDelete = EXT:hoicommunity/res/message_delete.gif
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=file[gif,jpg,png]; label= Welcome- new messages
+  resource.icon.welcomeNewMessages = EXT:hoicommunity/res/welcome_newmessages.gif
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=file[gif,jpg,png]; label= Welcome- no new messages
+  resource.icon.welcomeNoNewMessages = EXT:hoicommunity/res/welcome_nonewmessages.gif
+
+
+  ## CONFIGURATION VARS
+  # cat=plugin.tx_hoicommunity_pi1//; type=boolean; label= Emoticons- Parse for strings and replace them? You will need some emoticon records for this
+  emoticons = 1
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=string; label= From email- Emailaddress used as from address in activation emails
+  fromEmail = webmaster@example.com
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=string; label= From name- The name that will be used in activation emails
+  fromName = Webmaster
+
+	# cat=plugin.tx_hoicommunity_pi1//; type=string; label=Date-format
+	date_stdWrap.strftime = %b %e, %Y
+
+	# cat=plugin.tx_hoicommunity_pi1//; type=string; label=Time-format
+	datetime_stdWrap.strftime = %b %e, %Y at %R
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=int+; label= Max number of messages a user may have in each folder. Enter 0 for no max
+  maxMessagesPerFolder = 200
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=int+; label= PID of the page containing the register view
+  pid.register = 1244
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=int+; label= PID of the page containing the profile view
+  pid.profile = 1244
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=int+; label= PID of the page containing the buddylist view
+  pid.buddylist = 1244
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=int+; label= PID of the page containing the ignorelist view
+  pid.ignorelist = 1273
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=int+; label= PID of the page containing the messages view
+  pid.messages = 1244
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=int+; label= PID of the page containing the login view
+  pid.login = 1244
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=int+; label= Emoticons- PID of the sysfolder where the emoticon records reside.
+  pid.emoticons = 1236
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=string; label= User group(s) all members belong to. Must be a list of integers WITHOUT spaces between the comma separated values! Furthermore these integer MUST point to actual fe_groups records!
+  uid.memberGroup = 5
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=string; label= User group(s) with extra features (can be the same as the after activation group(s) and can also include the adminRights group). Must be a list of integers WITHOUT spaces between the comma separated values! Furthermore these integer MUST point to actual fe_groups records!
+  uid.extraFeatures = 6,7
+
+  # cat=plugin.tx_hoicommunity_pi1//; type=string; label= User group(s) with moderation rights (aka admin/webmaster group). Must be a list of integers WITHOUT spaces between the comma separated values! Furthermore these integer MUST point to actual fe_groups records!
+  uid.adminRights = 7
+}

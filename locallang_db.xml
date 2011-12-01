@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'hoicommunity'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_hoicommunity_messages">Message</label>
+			<label index="tx_hoicommunity_messages.folder_uid">Folder uid</label>
+			<label index="tx_hoicommunity_messages.subject">Subject</label>
+			<label index="tx_hoicommunity_messages.body">Body</label>
+			<label index="tx_hoicommunity_messages.been_read">Read</label>
+			<label index="tx_hoicommunity_folders">Folder</label>
+			<label index="tx_hoicommunity_folders.name">Name</label>
+			<label index="tx_hoicommunity_folders.is_inbox">Is inbox?</label>
+			<label index="tx_hoicommunity_buddylist">Buddy</label>
+			<label index="tx_hoicommunity_buddylist.fe_user_uid">Buddy uid</label>
+			<label index="tx_hoicommunity_ignorelist">Ignored user</label>
+			<label index="tx_hoicommunity_ignorelist.fe_user_uid">Ignored user uid</label>
+			<label index="tx_hoicommunity_emoticons">Emoticon</label>
+			<label index="tx_hoicommunity_emoticons.string">String</label>
+			<label index="tx_hoicommunity_emoticons.file">File</label>
+			<label index="fe_users.tx_hoicommunity_birthday">Birthday</label>
+			<label index="fe_users.tx_hoicommunity_information">Information</label>
+			<label index="fe_users.tx_hoicommunity_activation">Activation code</label>
+			<label index="tt_content.list_type_pi1">HOI Community</label>
+		</languageKey>
+	</data>
+</T3locallang>

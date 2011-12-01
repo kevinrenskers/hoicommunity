@@ -1,0 +1,2 @@
+# cat=basic; type=string; label=Image upload folder: Specify the name of the image upload folder. Default is /uploads/tx_hoicommunity.
+uploadFolder = uploads/tx_hoicommunity

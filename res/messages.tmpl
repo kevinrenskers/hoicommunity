@@ -1,0 +1,87 @@
+<!-- ###MESSAGE_LIST### begin -->
+	<table class="tx-hoicommunity-pi1-messagelist-container" cellspacing="0">
+		<tr class="tx-hoicommunity-pi1-messagelist-header">
+			<td style="width:20px">&nbsp;</td>
+			<td>###SUBJECT_LABEL###</td>
+			<td>###SENDER_LABEL###</td>
+			<td style="width:140px">###DATE_LABEL###</td>
+			<td style="width:16px">&nbsp;</td>
+		</tr>
+
+		<!-- ###CONTENT### -->
+			<!-- ###MESSAGE### -->
+				<tr class="tx-hoicommunity-pi1-messagelist-row" id="###ROWID###">
+					<td>###STATUSICON###</td>
+					<td><!--###LINKTOMESSAGE###-->###SUBJECT###<!--###LINKTOMESSAGE###--></td>
+					<td><!--###LINKTOPROFILE###-->###USERNAME###<!--###LINKTOPROFILE###--></td>
+					<td>###DATE###</td>
+					<td>###ACTIONS###</td>
+				</tr>
+	   <!-- ###MESSAGE### -->
+		<!-- ###CONTENT### -->
+	</table>
+<!-- ###MESSAGE_LIST### end -->
+
+
+<!-- ###MESSAGE_SINGLE### begin -->
+	<table class="tx-hoicommunity-pi1-message-container" cellspacing="0">
+		<tr class="tx-hoicommunity-pi1-message-row">
+			<td class="tx-hoicommunity-pi1-message-label">###SUBJECT_LABEL###</td>
+			<td class="tx-hoicommunity-pi1-message-field">###SUBJECT###</td>
+		</tr>
+
+		<tr class="tx-hoicommunity-pi1-message-row">
+			<td class="tx-hoicommunity-pi1-message-label">###SENDER_LABEL###</td>
+			<td class="tx-hoicommunity-pi1-message-field"><!--###LINKTOPROFILE###-->###USERNAME###<!--###LINKTOPROFILE###--></td>
+		</tr>
+
+		<tr class="tx-hoicommunity-pi1-message-row">
+			<td class="tx-hoicommunity-pi1-message-label">###DATE_LABEL###</td>
+			<td class="tx-hoicommunity-pi1-message-field">###DATE###</td>
+		</tr>
+
+		<tr class="tx-hoicommunity-pi1-message-row">
+			<td class="tx-hoicommunity-pi1-message-label">###FOLDER_LABEL###</td>
+			<td class="tx-hoicommunity-pi1-message-field">###FOLDER###</td>
+		</tr>
+
+		<tr class="tx-hoicommunity-pi1-message-row">
+			<td class="tx-hoicommunity-pi1-message-label">###BODY_LABEL###</td>
+			<td class="tx-hoicommunity-pi1-message-field">###BODY###</td>
+		</tr>
+	</table>
+
+	<div class="tx-hoicommunity-pi1-message-actions">
+		<!--###LINKTOREPLY###-->###REPLY###<!--###LINKTOREPLY###-->
+		<!--###LINKTODELETE###-->###DELETE###<!--###LINKTODELETE###-->
+		<!--###LINKTOMESSAGES###-->###BACKTOLIST###<!--###LINKTOMESSAGES###-->
+	</div>
+<!-- ###MESSAGE_SINGLE### end -->
+
+
+<!-- ###MESSAGE_SEND### begin -->
+	<form action="###FORM_URL###" method="post" enctype="###FORM_ENCTYPE###" onsubmit="###FORM_ONSUBMIT###">
+		<table class="tx-hoicommunity-pi1-sendmessage-container" cellspacing="0">
+
+			<tr class="tx-hoicommunity-pi1-sendmessage-row">
+				<td class="tx-hoicommunity-pi1-sendmessage-label">###RECEIVER_LABEL###</td>
+				<td class="tx-hoicommunity-pi1-sendmessage-field">###RECEIVER_VALUE###</td>
+			</tr>
+
+			<tr class="tx-hoicommunity-pi1-sendmessage-row">
+				<td class="tx-hoicommunity-pi1-sendmessage-label">###SUBJECT_LABEL###</td>
+				<td class="tx-hoicommunity-pi1-sendmessage-field"><input type="text" class="tx-hoicommunity-pi1-textinput" name="###SUBJECT_FIELD###" value="###SUBJECT_VALUE###" /></td>
+			</tr>
+
+			<tr class="tx-hoicommunity-pi1-sendmessage-row">
+				<td class="tx-hoicommunity-pi1-sendmessage-label">###BODY_LABEL###</td>
+				<td class="tx-hoicommunity-pi1-sendmessage-field"><textarea name="###BODY_FIELD###" class="tx-hoicommunity-pi1-textarea">###BODY_VALUE###</textarea></td>
+			</tr>
+
+			<tr class="tx-hoicommunity-pi1-sendmessage-row">
+				<td class="tx-hoicommunity-pi1-sendmessage-label"></td>
+				<td class="tx-hoicommunity-pi1-sendmessage-field"><input type="submit" name="###SUBMIT_FIELD###" value="###SUBMIT_VALUE###" /></td>
+			</tr>
+		</table>
+	</form>
+<!-- ###MESSAGE_SEND### end -->

@@ -1,0 +1,107 @@
+2007-05-03 Kevin Renskers [DMM Development]  <kevin(at)dauphin-mm.nl>
+	* Version 1.1.4
+	* Re-added the documentation, it was lost all of a sudden?
+	* Changed the extension icon
+
+
+2007-04-18 Kevin Renskers [DMM Development]  <kevin(at)dauphin-mm.nl>
+	* Version 1.1.3
+	* Feature: Added French translation (thanks florian.aeschlimann(at)ludonautes.com)
+	* Bugfix: Changed all functions calls to extRelPath() to siteRelPath() in pi1/class.tx_hoicommunity_pi1.php (thanks schroeder.sascha(at)web.de)
+
+2006-08-07 Kevin Renskers [Dualdot Internet]  <info(at)dualdot.nl>
+	* Version 1.1.2
+	* Feature: when doing the AJAX checks on the register form, disable the submit button to prevent double submits
+	* Feature: added a short help text on the register page
+	* Feature: added account statistics on the admin screen
+	* Feature: strings are no longer hardcoded in the hoicommunity.js file, they use locallang.xml now
+	* Bugfix: path to ajax.php used in the hoicommunity.js file is now wrapped in t3lib_div::locationHeaderUrl() (thanks tding(at)1688.com)
+
+2006-07-09 Kevin Renskers [Dualdot Internet]  <info(at)dualdot.nl>
+	* Version 1.1.1
+	* Feature: added a new log table, so we can keep track of all the ip adresses an user used, so that it's possible to ban him on ip address in the future
+	* Bugfix: added all the right keys and indexes to the ext_tables.sql file
+
+2006-07-07 Kevin Renskers [Dualdot Internet]  <info(at)dualdot.nl>
+	* Version 1.1.0
+	* Feature: moved the activation-email template to a new template-file, common for all sent emails (more to come!)
+	* Feature: Administration functions:
+		- The update function has been moved to the administration screen
+		- Inactive members (not logged in for 3 months) will be disabled, and get a re-activation email
+		- Unactivated members (not activated within 48 hours) will be deleted along with folders, messages, buddies, files, etc
+		!! Make sure you set the access-rights to the administration screen to a crew-only group !!
+
+2006-06-30 Kevin Renskers [Dualdot Internet]  <info(at)dualdot.nl>
+	* Version 1.0.5
+	* Feature: Can set the "view" code with TypoScript now, like this:
+		temp.community.10 < plugin.tx_hoicommunity_pi1
+		temp.community.10.view = WELCOME
+		(thanks christian(at)muench-worms.de)
+
+2006-06-28 Kevin Renskers [Dualdot Internet]  <info(at)dualdot.nl>
+	* Version 1.0.4
+	* Bugfix: Birthday was not recognised properly
+	* Bugfix: window.location url's now wrapped in t3lib_div::locationHeaderUrl() (thanks christian.muench(at)wormatia.de)
+
+2006-06-19 Kevin Renskers [Dualdot Internet]  <info(at)dualdot.nl>
+	* Version 1.0.3
+	* Bugfix: Not really a bug, but the search function now searches with LIKE values
+	* Bugfix: Changed $HTTP_SERVER_VARS to $_SERVER in ajax.php
+
+2006-06-07 Kevin Renskers [Dualdot Internet]  <info(at)dualdot.nl>
+	* Version 1.0.2
+	* Feature: Added German translation (thanks peter.bachmann(at)comasys.ch)
+	* Feature: Added Dutch translation
+
+2006-06-07 Kevin Renskers [Dualdot Internet]  <info(at)dualdot.nl>
+	* Version 1.0.1
+	* Bugfix: Deleted users not shown anymore on userlists
+
+2006-06-05 Kevin Renskers [Dualdot Internet]  <info(at)dualdot.nl>
+	* Version 1.0.0
+	* Feature: Ignorelists: people on your ignorelist can no longer send you messages
+	* Feature: Search users
+	* Bugfix: Deleting someone from your buddylist did not work
+
+2006-05-10 Kevin Renskers [Dualdot Internet]  <info(at)dualdot.nl>
+	* Version 0.9.12
+	* Feature: Can set how many messages will be showed for each folder (users with 1000's of messages can slow down the server a lot)
+	* Feature: Quotes in messages are now rendered to span's which can be styled
+
+2006-05-06 Kevin Renskers [Dualdot Internet]  <info(at)dualdot.nl>
+	* Version 0.9.11
+	* Bugfix: Removed deleted field from tx_hoicommunity_buddylist in ext_tables.php (thanks daniel(at)typo3-nl.eu)
+	* Bugfix: Fixed sending a default message when a user created an account (thanks daniel(at)typo3-nl.eu)
+
+2006-05-06 Kevin Renskers [Dualdot Internet]  <info(at)dualdot.nl>
+	* Version 0.9.10
+	* Bugfix: Fixed a small error in the documentation
+	* Bugfix: Fixed PATH_tslib in ajax.php (thanks daniel(at)typo3-nl.eu)
+
+2006-05-05 Kevin Renskers [Dualdot Internet]  <info(at)dualdot.nl>
+	* Version 0.9.9
+	* Feature: Added different classes for each usergroup, on the online users list
+	* Feature: Added documentation
+
+2006-05-02 Kevin Renskers [Dualdot Internet]  <info(at)dualdot.nl>
+	* Version 0.9.8
+	* Bugfix: Better escaping of html character when saving a profile
+	* Bugfix: Some small IE bugfixes with default templates
+	* Feature: Added BBCode support in profiles, user needs to be in the extraFeatures group
+	* Feature: Added the ability to upload a (new) picture to your profile
+
+2006-05-01 Kevin Renskers [Dualdot Internet]  <info(at)dualdot.nl>
+	* Version 0.9.7
+	* Feature: Added upgrade feature
+
+2006-04-30 Kevin Renskers [Dualdot Internet]  <info(at)dualdot.nl>
+	* Version 0.9.6
+	* Changed extension description for TER
+
+2006-04-30 Kevin Renskers [Dualdot Internet]  <info(at)dualdot.nl>
+	* Version 0.9.5
+	* First public release to TER
+
+2006-04-20 Kevin Renskers [Dualdot Internet]  <info(at)dualdot.nl>
+	* Version 0.0.0
+	* Started working on HOI Community

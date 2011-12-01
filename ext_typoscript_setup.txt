@@ -1,0 +1,79 @@
+plugin.tx_hoicommunity_pi1 {
+
+	resource {
+		template {
+		  register = {$plugin.hoicommunity.resource.template.register}
+		  changePassword = {$plugin.hoicommunity.resource.template.changePassword}
+		  login = {$plugin.hoicommunity.resource.template.login}
+		  welcome = {$plugin.hoicommunity.resource.template.welcome}
+		  onlineUsers = {$plugin.hoicommunity.resource.template.onlineUsers}
+		  messages = {$plugin.hoicommunity.resource.template.messages}
+		  buddylist = {$plugin.hoicommunity.resource.template.buddylist}
+		  ignorelist = {$plugin.hoicommunity.resource.template.ignorelist}
+		  userlist = {$plugin.hoicommunity.resource.template.userlist}
+		  search = {$plugin.hoicommunity.resource.template.search}
+		  profile = {$plugin.hoicommunity.resource.template.profile}
+		  email = {$plugin.hoicommunity.resource.template.email}
+		}
+
+		icon {
+			calendar = {$plugin.hoicommunity.resource.icon.calendar}
+			memberNoImage = {$plugin.hoicommunity.resource.icon.memberNoImage}
+			memberBirthday = {$plugin.hoicommunity.resource.icon.memberBirthday}
+		  memberOnline = {$plugin.hoicommunity.resource.icon.memberOnline}
+		  memberOffline = {$plugin.hoicommunity.resource.icon.memberOffline}
+		  memberMale = {$plugin.hoicommunity.resource.icon.memberMale}
+		  memberFemale = {$plugin.hoicommunity.resource.icon.memberFemale}
+		  memberEdit = {$plugin.hoicommunity.resource.icon.memberEdit}
+		  memberPhotoalbum = {$plugin.hoicommunity.resource.icon.memberPhotoalbum}
+		  buddyAdd = {$plugin.hoicommunity.resource.icon.buddyAdd}
+		  buddyDelete = {$plugin.hoicommunity.resource.icon.buddyDelete}
+		  messageNew = {$plugin.hoicommunity.resource.icon.messageNew}
+		  messageRead = {$plugin.hoicommunity.resource.icon.messageRead}
+		  messageWrite = {$plugin.hoicommunity.resource.icon.messageWrite}
+		  messageReply = {$plugin.hoicommunity.resource.icon.messageReply}
+		  messageDelete = {$plugin.hoicommunity.resource.icon.messageDelete}
+		  welcomeNewMessages = {$plugin.hoicommunity.resource.icon.welcomeNewMessages}
+		  welcomeNoNewMessages = {$plugin.hoicommunity.resource.icon.welcomeNoNewMessages}
+		}
+	}
+
+  emoticons = {$plugin.hoicommunity.emoticons}
+  date_stdWrap.strftime = {$plugin.hoicommunity.date_stdWrap.strftime}
+  datetime_stdWrap.strftime = {$plugin.hoicommunity.datetime_stdWrap.strftime}
+	fromEmail = {$plugin.hoicommunity.fromEmail}
+	fromName = {$plugin.hoicommunity.fromName}
+	maxMessagesPerFolder = {$plugin.hoicommunity.maxMessagesPerFolder}
+
+	pid {
+	  register = {$plugin.hoicommunity.pid.register}
+	  profile = {$plugin.hoicommunity.pid.profile}
+	  buddylist = {$plugin.hoicommunity.pid.buddylist}
+	  ignorelist = {$plugin.hoicommunity.pid.ignorelist}
+	  messages = {$plugin.hoicommunity.pid.messages}
+	  login = {$plugin.hoicommunity.pid.login}
+	  emoticons = {$plugin.hoicommunity.pid.emoticons}
+	}
+
+	uid {
+	  memberGroup = {$plugin.hoicommunity.uid.memberGroup}
+	  extraFeatures = {$plugin.hoicommunity.uid.extraFeatures}
+	  adminRights = {$plugin.hoicommunity.uid.adminRights}
+	}
+
+	profileImage {
+	  file.maxW = 150
+	  wrap = |
+	  imageLinkWrap = 1
+	  imageLinkWrap {
+	    enable = 1
+	    bodyTag = <body>
+	    wrap = <a href="javascript:close()">|</a>
+	    width = 400
+	    JSwindow = 1
+	    JSwindow.newWindow = 1
+	    JSwindow.expand = 17,20
+	  }
+	}
+
+}

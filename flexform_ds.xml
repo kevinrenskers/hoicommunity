@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+<T3DataStructure>
+	<sheets>
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:hoicommunity/locallang_tca.php:hoicommunity.pi_flexform.sheet_general</sheetTitle>
+				</TCEforms>
+
+				<type>array</type>
+
+				<el>
+					<field_code>
+						<TCEforms>
+							<label>LLL:EXT:hoicommunity/locallang_tca.php:hoicommunity.pi_flexform.sheet_general_code</label>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:hoicommunity/locallang_tca.php:hoicommunity.pi_flexform.sheet_general_code.I.0</numIndex>
+										<numIndex index="1">REGISTER</numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:hoicommunity/locallang_tca.php:hoicommunity.pi_flexform.sheet_general_code.I.1</numIndex>
+										<numIndex index="1">LOGIN</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:hoicommunity/locallang_tca.php:hoicommunity.pi_flexform.sheet_general_code.I.2</numIndex>
+										<numIndex index="1">WELCOME</numIndex>
+									</numIndex>
+									<numIndex index="3">
+										<numIndex index="0">LLL:EXT:hoicommunity/locallang_tca.php:hoicommunity.pi_flexform.sheet_general_code.I.3</numIndex>
+										<numIndex index="1">ONLINEUSERS</numIndex>
+									</numIndex>
+									<numIndex index="4">
+										<numIndex index="0">LLL:EXT:hoicommunity/locallang_tca.php:hoicommunity.pi_flexform.sheet_general_code.I.4</numIndex>
+										<numIndex index="1">MESSAGES</numIndex>
+									</numIndex>
+									<numIndex index="5">
+										<numIndex index="0">LLL:EXT:hoicommunity/locallang_tca.php:hoicommunity.pi_flexform.sheet_general_code.I.5</numIndex>
+										<numIndex index="1">BUDDYLIST</numIndex>
+									</numIndex>
+									<numIndex index="6">
+										<numIndex index="0">LLL:EXT:hoicommunity/locallang_tca.php:hoicommunity.pi_flexform.sheet_general_code.I.6</numIndex>
+										<numIndex index="1">IGNORELIST</numIndex>
+									</numIndex>
+									<numIndex index="7">
+										<numIndex index="0">LLL:EXT:hoicommunity/locallang_tca.php:hoicommunity.pi_flexform.sheet_general_code.I.7</numIndex>
+										<numIndex index="1">USERLIST</numIndex>
+									</numIndex>
+									<numIndex index="8">
+										<numIndex index="0">LLL:EXT:hoicommunity/locallang_tca.php:hoicommunity.pi_flexform.sheet_general_code.I.8</numIndex>
+										<numIndex index="1">PROFILE</numIndex>
+									</numIndex>
+									<numIndex index="9">
+										<numIndex index="0">LLL:EXT:hoicommunity/locallang_tca.php:hoicommunity.pi_flexform.sheet_general_code.I.9</numIndex>
+										<numIndex index="1">CHANGEPASSWORD</numIndex>
+									</numIndex>
+									<numIndex index="10">
+										<numIndex index="0">LLL:EXT:hoicommunity/locallang_tca.php:hoicommunity.pi_flexform.sheet_general_code.I.10</numIndex>
+										<numIndex index="1">SEARCH</numIndex>
+									</numIndex>
+									<numIndex index="11">
+										<numIndex index="0">LLL:EXT:hoicommunity/locallang_tca.php:hoicommunity.pi_flexform.sheet_general_code.I.11</numIndex>
+										<numIndex index="1">ADMIN</numIndex>
+									</numIndex>
+								</items>
+								<minitems>1</minitems>
+								<maxitems>1</maxitems>
+								<size>8</size>
+								<multiple>0</multiple>
+							</config>
+						</TCEforms>
+					</field_code>
+	    	</el>
+
+			</ROOT>
+		</sDEF>
+	</sheets>
+</T3DataStructure>
