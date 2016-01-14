@@ -1,3 +1,6 @@
+# hoicommunity
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 What does it do?
 ================
 A complete user community, including logging in, creating accounts, sending messages , buddylists, ignorelists and searching users. It has support for different membership levels ('normal', 'VIP' and 'crew'). It's kinda like loginbox_macmade, sr_feuser_register and cwt_community (and its dependencies) all in one. HOI Community uses templates and locallang.xml files, CSS stylesheets and Typoscript constants for complete control. And did I mention XHTML valid default templates?
